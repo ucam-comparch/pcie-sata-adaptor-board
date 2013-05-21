@@ -1,0 +1,12 @@
+PCIe to SATA adaptor PCB parts list,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+User part no,Supplier,Supplier part no,Qty per assembly,Description,Mfr/Part,Unit price exc breaks,Total price,Notes
+,,,,,,,,
+,Farnell,1753904,1,"SOCKET, PCI-E, 2X49, EDGE",SAMTEC - PCIE-098-02-F-D-EM2,7.98,7.98,
+,Farnell,1519801,8,"HEADER, SATA, VERTICAL, 1.27MM, 7WAY",MOLEX - 47155-4001,0.28,2.24,
+,RS,212-806,1,SATA 22P DEVICE PLUG RIGHT ANGLE PTH,3M 5622-4100-ML,1.772,1.772,
+,Farnell,1099245,1,"HEADER, RIGHT ANGLE, 10WAY",MULTICOMP - MC9A22-1034,0.39,0.39,
+,Farnell,3418492,2,"HEADER, 2ROW, 6WAY",TE CONNECTIVITY / AMP  826632-3,0.22,0.44,
+0R-0805,,,3,0R 0805 resistor,,,,Optional
+,RAK,,1,Printed circuit board,UNI14 - 97956,,,
