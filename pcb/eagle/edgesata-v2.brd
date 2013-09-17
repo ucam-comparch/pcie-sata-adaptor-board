@@ -88,7 +88,7 @@
 <text x="92" y="39" size="1.778" layer="25" rot="R90">LANE7</text>
 <text x="23.5" y="30" size="5" layer="25">D</text>
 <text x="45" y="1.5" size="1.2" layer="25">PCI-e to SATA adaptor, Copyright Simon Moore 2011-3</text>
-<text x="37.64" y="2.46" size="1" layer="1" rot="R180">Version 20130520</text>
+<text x="37.64" y="2.46" size="1" layer="1" rot="R180">Version 20130917</text>
 <text x="23.5" y="8" size="5" layer="25">H</text>
 <text x="16.8" y="21.2" size="1.016" layer="25">GND</text>
 <text x="20.2" y="21.3" size="1.016" layer="25">TDO</text>
@@ -1227,7 +1227,7 @@ These strictly adhere to the PCB Train board house specs. The rules are &lt;i&gt
 <wire x1="82.5" y1="60.5" x2="82.5" y2="63.4" width="0.35" layer="1"/>
 <wire x1="82" y1="60" x2="82.5" y2="60.5" width="0.35" layer="1"/>
 <wire x1="82.5" y1="63.4" x2="82.5" y2="63.3" width="0.35" layer="16"/>
-<wire x1="82.5" y1="60.5" x2="82.5" y2="63.4" width="0.35" layer="16"/>
+<wire x1="82.5" y1="60.5" x2="82.5" y2="63.3" width="0.35" layer="16"/>
 <wire x1="82" y1="60" x2="82.5" y2="60.5" width="0.35" layer="16"/>
 <wire x1="46.5" y1="60.5" x2="46.5" y2="63.4" width="0.35" layer="1"/>
 <wire x1="47" y1="60" x2="46.5" y2="60.5" width="0.35" layer="1"/>
@@ -1240,7 +1240,6 @@ These strictly adhere to the PCB Train board house specs. The rules are &lt;i&gt
 <wire x1="3.88" y1="5.92" x2="6.73" y2="5.92" width="0.35" layer="16"/>
 <wire x1="3.8275" y1="16.08" x2="6.73" y2="16.08" width="0.35" layer="16"/>
 <wire x1="3.5" y1="15.7525" x2="3.8275" y2="16.08" width="0.35" layer="16"/>
-<wire x1="3.5" y1="6.3" x2="3.5" y2="7.3475" width="0" layer="19" extent="16-16"/>
 <via x="35.4" y="59.85" extent="1-16" drill="0.3"/>
 <via x="34.7" y="59.85" extent="1-16" drill="0.3"/>
 <via x="35.4" y="57.75" extent="1-16" drill="0.3"/>
@@ -1326,6 +1325,7 @@ These strictly adhere to the PCB Train board house specs. The rules are &lt;i&gt
 <vertex x="41.7" y="54.95"/>
 <vertex x="40.3" y="54.95"/>
 </polygon>
+<wire x1="3.5" y1="6.3" x2="3.5" y2="7.3475" width="0.4064" layer="16"/>
 </signal>
 <signal name="TVREF">
 <contactref element="3V3" pad="3"/>
@@ -1562,9 +1562,6 @@ These strictly adhere to the PCB Train board house specs. The rules are &lt;i&gt
 </signal>
 </signals>
 <errors>
-<approved hash="11,1,48a5c5903955b460"/>
-<approved hash="11,1,5e6f3842c46ca241"/>
-<approved hash="11,16,12326f4b9364ee1d"/>
 <approved hash="11,1,8a6f374d4932f410"/>
 <approved hash="11,2,1e94bab6c4ba6098"/>
 <approved hash="11,15,e31c2e3e50239d01"/>
